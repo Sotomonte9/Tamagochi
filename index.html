@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pingus Simulator 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon-96x96.png" type="image/x-icon">
+</head>
+<body>
+    <header class="porencima">
+        <button onclick="changeSpriteMomently('meon')">Lavabo</button>
+        <div id="contenedor-barra-progreso">
+            <div id="barra-progreso"></div>
+            <span id="cantidad-progreso">0%</span>
+        </div>
+
+        <button onclick="changeSpriteMomently('gym')">Entrenar</button>
+        <div id="contenedor-barra-progreso">
+            <div id="barra-progreso"></div>
+            <span id="cantidad-progreso">0%</span>
+        </div>
+
+        <button onclick="changeSpriteMomently('trompetero')">Quejarse</button>
+        <div id="contenedor-barra-progreso">
+            <div id="barra-progreso"></div>
+            <span id="cantidad-progreso">0%</span>
+        </div>
+
+        <button onclick="changeSpriteMomently('voltereta')">Jugar</button>
+        <div id="contenedor-barra-progreso">
+            <div id="barra-progreso"></div>
+            <span id="cantidad-progreso">0%</span>
+        </div>
+        
+    </header>
+
+    <div class="orden">
+        <div class="box iglu"></div>
+        <div class="pinguino" id="sprite"></div>
+    </div>    
+
+    <script src="main.js"></script> 
+</body>
+</html>
